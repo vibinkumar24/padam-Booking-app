@@ -1,0 +1,178 @@
+
+#cinema-hall {
+    height: 654px;
+    width: 100%;
+    background-image: url('./CinemaHall.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+#exit-btn {
+    padding: 7px;
+    float: right;
+    margin: 20px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    font-weight: bolder;
+    color: red;
+    box-shadow: 0px 2px 8px 5px;
+}
+
+#seat-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 80px;
+    width: 400px;
+    margin-left: 440px;
+    margin-top: -400px;
+}
+
+.seat {
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-weight: bolder;
+}
+
+.seat:hover {
+    box-shadow: black 0px 2px 4px 2px;
+    color: white;
+    background-color: green;
+}
+
+.seat-inside {
+    width: 30px;
+    height: 6px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#payment-details {
+    width: 300px;
+    height: 525px;
+    float: right;
+    background-color: black;
+    margin: 10px;
+    margin-right: 25px;
+    margin-top: -445px;
+    border-radius: 10px;
+    border: 1px dotted white;
+    background-color: rgb(236, 236, 236);
+}
+
+#payment-logo {
+    width: 150px;
+    height: 60px;
+    margin-left: 75px;
+}
+
+#payment-form {
+    margin: 10px;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: -5px
+}
+
+#payment-form > input {
+    border-radius: 5px;
+    border: 1px groove black;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 3px;
+    
+}
+
+#payment-form > label,span {
+    font-weight: 100;
+}
+#bookticket-btn {
+    margin: 20px;
+    margin-top: -0.5px;
+    padding: 5px;
+    width: 250px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(240, 25, 97);
+    border: none;
+    border-radius: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#bookticket-btn:hover {
+    box-shadow: black 0px 2px 4px 2px;
+}
+.seat-selected{
+ background-color: green;
+ color: white;
+ box-shadow: black 0px 2px 4px 2px;   
+}
+
+
+
+
+#ticket-information {
+    display: none;
+}
+
+#ticket-logo {
+    margin-top: -270px;
+    margin-left: 380px;
+}
+
+#icon {
+    width: 700px;
+    height: 300px;
+    margin-top: 60px;
+    margin-left: 250px;
+}
+
+#app-icon {
+    width: 100px;
+    height: 50px;
+    margin-top: -485px;
+    margin-left: 530px;
+}
+
+#movie-icon {
+    width: 100px;
+    height: 110px;
+    margin-top: -416px;
+    margin-left: 757px;
+    border-radius: 8px;
+}
+
+#download-btn{
+    margin-top: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 54, 84);
+    padding: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+#download-btn:hover {
+    box-shadow: black 0px 2px 4px 2px;
+    background-color: green;
+}
+
+.timeoff2 {
+    display: inline-block;
+    animation-name: ani4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani4 {
+    0% {
+        transform: scale(1.5, 1.5);
+    }
+    
+}

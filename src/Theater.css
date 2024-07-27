@@ -1,0 +1,88 @@
+#to-home {
+    margin-left: 430px;
+    text-decoration: none;
+    padding: 10px;
+}
+.grid-container {
+    position: sticky;
+    top: 0;
+}
+#to-home:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+#theater-content {
+    background-image: url('./movieBackground.jpg');
+    height: 300px;
+    width: 100%;
+    position:sticky;
+    top: 12.8vh;
+}
+#theater-details {
+    width: 100%;
+}
+
+#movie-img {
+    width: 220px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 15px;
+    margin-left: 50px;
+    margin-top: -140px;
+}
+
+#movie-details {
+    display: inline-block;
+    color:white;
+    margin-left: 50px;
+    margin-top: 60px;
+    opacity: 0.8;
+    font-family: "DM Sans", sans-serif;
+}
+
+#theater-booking {
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    height: 65px;
+    margin: 5px;
+    background-color: rgb(248, 244, 244);
+}
+#theater-booking:hover {
+    box-shadow: black 4px 0px 7px 6px;
+  
+}
+#theater-booking-btn {
+    color: white;
+    background-color: rgb(240, 25, 97);
+    font-family: "DM Sans", sans-serif;
+    padding: 5px;
+    border:none;
+    border-radius: 6px;
+    margin-left: 35px;
+}
+#theater-booking-btn:hover {
+    background-color: green;
+    box-shadow: black 4px 0px 7px 6px;
+  
+}
+
+#theater-dance {
+    display: inline-block;
+    width: 100px;
+}
+
+#gif-img {
+    margin-left: 470px;
+    margin-top: -85px;
+    height: 180px;
+    animation: scroll 8s linear infinite;
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-250%);
+    }
+  }
